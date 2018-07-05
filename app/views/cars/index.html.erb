@@ -1,0 +1,4 @@
+<h1>Index Cars</h1>
+<%@mycar.each do |mycar|%>
+<h5><%=link_to mycar.make, car_path(mycar)%></h5>
+<%end%>
